@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "dev:legacy": "mix",
+        "build:legacy": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.11",
+        "@tailwindcss/typography": "^0.5.19",
+        "@vitejs/plugin-vue": "^4.6.2",
+        "autoprefixer": "^10.5.0",
+        "axios": "^1.6.0",
+        "laravel-mix": "^6.0.0",
+        "laravel-vite-plugin": "^0.8.1",
+        "postcss": "^8.5.10",
+        "postcss-import": "^16.1.1",
+        "postcss-nesting": "^14.0.0",
+        "rollup-plugin-visualizer": "^7.0.1",
+        "sass": "^1.99.0",
+        "sass-loader": "^16.0.7",
+        "tailwindcss": "^3.4.19",
+        "vite": "^5.4.21",
+        "vite-plugin-full-reload": "^1.2.0",
+        "vite-plugin-imagemin": "^0.6.1"
+    },
+    "dependencies": {
+        "alpinejs": "^3.15.11"
+    }
+}
